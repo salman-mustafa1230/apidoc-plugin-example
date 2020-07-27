@@ -32,10 +32,11 @@ Uses [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
 ## Example Use with base path in apidoc.js
 
 ```javascript
+apidoc.json
 {
   sampleJsonSchemaPath: "./schema/";
 }
-
+comment:
 /**
  * @api {get} /api GetAPI
  * @apiExample {json=api.req.json} apiParamExample Request
